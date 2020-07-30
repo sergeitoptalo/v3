@@ -1,0 +1,21 @@
+@import './reset.css';
+
+body {
+  padding: 10px;
+}
+
+nav.header-navigation {
+  margin-bottom: 30px;
+}
+
+nav.header-navigation li {
+  display: inline-block;
+}
+
+nav.header-navigation li a {
+  padding: 10px;
+}
+
+nav.header-navigation li a.router-link-active {
+  background: #ccc;
+}
